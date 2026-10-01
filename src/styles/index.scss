@@ -1,0 +1,9 @@
+@use './reset';
+
+// 注入暗黑模式（Element Plus 暗色变量 + 自定义）
+html.dark {
+  $menu-bg: #141414;
+  background-color: #000;
+}
+
+// 主题色根据 --el-color-primary 自动派生（Element Plus 已处理）
